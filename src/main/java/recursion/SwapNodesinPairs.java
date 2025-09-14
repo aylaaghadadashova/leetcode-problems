@@ -3,7 +3,7 @@ package recursion;
 import linkedList.ListNode;
 
 public class SwapNodesinPairs {
-    public ListNode swapPairs(ListNode head) {
+    public static ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) return head;
 
         ListNode prev = head;
